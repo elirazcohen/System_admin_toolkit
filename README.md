@@ -1,5 +1,3 @@
-Here you go, copy everything below:
-
 PowerShell Sysadmin Toolkit
 A collection of Windows automation and network diagnostic scripts built to monitor system health, manage services, and scan networks — all with structured logging and error handling.
 Built independently as a self-taught project to automate real sysadmin tasks.
