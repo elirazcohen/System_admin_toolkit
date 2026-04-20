@@ -14,6 +14,7 @@ All-in-one health check. Monitors CPU usage, RAM consumption, and disk space acr
 
 **`system_info_script.ps1`**
 Pulls system information (hostname, OS version, uptime) using WMI/CIM and formats it cleanly for quick readability.
+kept private as it contains info of the device such as (device's ID)
 
 **`Windows_Event_Logger.ps1`**
 Queries Windows Event Logs from the last 24 hours, groups events by severity level, and logs counts to a timestamped file.
@@ -28,9 +29,8 @@ Monitors critical Windows services and automatically restarts stopped ones. Incl
 
 **`cyber_toolkit.ps1`**
 Port scanner and LAN scanner combined. Tests common ports against target domains and sweeps the local subnet for live devices, resolving hostnames and MAC addresses.
+Kept private as it contains network-specific configuration (IPs, hostnames, MAC addresses).
 
-**`dns-ip-resolver.ps1`**
-Resolves IPv4 addresses for target domains with error handling.
 
 ---
 
@@ -46,4 +46,4 @@ Resolves IPv4 addresses for target domains with error handling.
 
 ## About
 
-Self-taught. Built these tools to understand how Windows systems and networks actually work — not just how to click through GUIs.
+Self-taught. Built these tools to understand how Windows systems and networks actually work — not just how to click through GUIs. 
